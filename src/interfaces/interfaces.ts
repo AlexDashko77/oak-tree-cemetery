@@ -1,9 +1,6 @@
 export interface IInput {
     value: string
     onChange: (value: string) => void
-    minLength?: number
-    maxLength?: number
-    type?: string
 }
 export interface IDropdown {
     value?: string;

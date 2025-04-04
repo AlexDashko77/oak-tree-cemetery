@@ -9,7 +9,7 @@ import UpdateOrganizationNameModal from "./components/UpdateOrganizationNameModa
 import store from "./store/store"
 import CompanyNotExist from "./components/CompanyNotExist/CompanyNotExist"
 import { observer } from "mobx-react-lite"
-import ImageUploadModal from "./components/ImageUpload/ImageUploadModal"
+import ImageUploadModal from "./components/ImageUploadModal/ImageUploadModal"
 
 const App = observer(() => {
   useEffect(() => {
