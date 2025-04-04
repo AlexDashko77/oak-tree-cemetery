@@ -1,0 +1,146 @@
+.sidebar
+  width: 298px
+  height: 100%
+  display: flex
+  box-shadow: 4px 0px 16px 0px rgba(0, 0, 0, 0.08)
+  
+
+  &__menu
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    width: 48px
+    height: 100%
+    background-color: #3B3B3B
+    padding: 20px 6px
+
+    &-top, &-bottom
+      display: flex
+      flex-direction: column
+      align-items: center
+      gap: 20px
+
+    &-icon
+      width: 36px
+      height: 36px
+      display: flex
+      align-items: center
+      justify-content: center
+      border-radius: 8px
+      cursor: pointer
+     
+
+      &--active
+        background: rgba(255, 255, 255, 0.2)
+
+    &-divider
+      width: 20px
+      height: 1px
+      background: rgba(255, 255, 255, 0.2)
+
+  &__content
+    flex: 1
+    padding: 20px
+    background: white
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    align-items: center
+
+    &-top
+      display: flex
+      flex-direction: column
+      gap: 20px
+
+  &__company
+    display: flex
+    flex-direction: column
+
+    &-name
+      font-size: 14px
+      font-weight: bold
+      color:#000000CC
+
+    &-role
+      font-size: 11px
+      color:#000000CC
+      font-weight: 400
+
+
+  &__line
+    width: 210px
+    height: 1px
+    border: 1px solid #0000001A
+
+  &__manage
+    display: flex
+    flex-direction: column
+    gap: 12px
+    span 
+      width: 130px
+
+    &-organizations
+      width: 210px
+      height: 40px
+      border-radius: 8px
+      background-color: #3B3B3B
+      font-size: 13px
+      font-weight: 600
+      color: white
+      cursor: pointer
+      display: flex
+      align-items: center
+      justify-content: center
+      gap: 12px
+      img
+        width: 16px
+        height: 16px
+      &:hover
+        background: #626262
+      &:active
+        background: #767676
+
+    &-contractors
+      width: 210px
+      height: 40px
+      border-radius: 8px
+      border: 1px solid rgba(0,0,0,0.2)
+      font-size: 13px
+      font-weight: 600
+      color: #3B3B3B
+      cursor: pointer
+      display: flex
+      align-items: center
+      justify-content: center
+      gap: 12px
+      
+      &:hover
+        color:#6D4AFF
+      &:active
+        border: 1px solid #6243E6
+
+    &-clients
+      width: 210px
+      height: 40px
+      border-radius: 8px
+      border: 1px solid rgba(0,0,0,0.2)
+      font-size: 13px
+      font-weight: 600
+      color: #3B3B3B
+      cursor: pointer
+      display: flex
+      align-items: center
+      justify-content: center
+      gap: 12px
+      &:hover
+        color:#6D4AFF
+      &:active
+        border: 1px solid #6243E6
+
+  &__footer
+    font-size: 11px
+    color:#0000004D
+    font-weight: 400
+
+.sidebar__menu-icon:not(:first-of-type):hover
+    background: #FFFFFF1A
